@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es6", // Вибір цільової версії JavaScript
+    "module": "commonjs", // Вибір модуля
+    "strict": true, // Включення всіх строгих перевірок типів
+    "jsx": "react", // Вибір JSX для React
+    "moduleResolution": "node", // Вибір способу резолюції модулів
+    "esModuleInterop": true, // Дозволяє імпортувати CommonJS модулі
+    "skipLibCheck": true, // Пропустити перевірку типів в .d.ts файлах
+    "forceConsistentCasingInFileNames": true // Примусити використовувати однаковий регістр у назвах файлів
+  },
+  "include": ["src/**/*"], // Включити всі файли в папці src
+  "exclude": ["node_modules"] // Виключити папку node_modules
+}
